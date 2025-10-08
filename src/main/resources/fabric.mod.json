@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "psychodreamsoptimizer",
+  "version": "${version}",
+  "name": "Psychodreams CrystalOptimizer",
+  "description": "Enables faster end crystal placement mechanics.",
+  "authors": [
+    "Psychodreams"
+  ],
+  "contact": {
+    "homepage": "https://github.com/wxlksy"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/optimizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "psychodreams.optimizer.Optimizer"
+    ]
+  },
+  "mixins": [
+    "optimizer.mixins.json"
+  ],
+  "depends": {
+    "midnightlib": "*"
+  }
+}
